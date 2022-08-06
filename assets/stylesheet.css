@@ -1,4 +1,13 @@
 /*Employee Portfolio*/
 /*Last updated by Arielle Schlickman Elak Aug 6 2022*/
 
+/*Template setup*/
+:root {
+    --light-pink: #a47b86;
+    --medium-maroon: #6e2c3e;
+    --dark-purple: #3d1521;
+}
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
