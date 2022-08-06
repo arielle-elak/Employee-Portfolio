@@ -58,6 +58,12 @@ header nav ul {
 
 }
 
+#headshot {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+
 .work {
 
 }
