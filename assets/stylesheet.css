@@ -25,6 +25,7 @@ header {
     background-color: var(--extralight);
     position: sticky;
     top: 0;
+    border-bottom: 3px solid var(--dark);
 }
 
 .logo {
@@ -44,6 +45,16 @@ header nav ul {
     flex-direction: row;
     gap: 90px;
     flex-wrap: wrap;
+}
+
+
+header nav li a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+header nav li a:hover, header nav li a:active {
+    color: var(--light);
 }
 
 .parallax {
