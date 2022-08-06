@@ -3,9 +3,10 @@
 
 /*Template setup*/
 :root {
-    --light-pink: #a47b86;
-    --medium-maroon: #6e2c3e;
-    --dark-purple: #3d1521;
+    --extralight: #f5f4f4;
+    --light: #a47b86;
+    --medium: #6e2c3e;
+    --dark: #3d1521;
 }
 
 body {
@@ -19,11 +20,15 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 2%;
+    margin: 0 0 1% 0;
+    padding: 0 5% 0 1%;
+    background-color: var(--extralight);
+    position: sticky;
+    top: 0;
 }
 
 .logo {
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
