@@ -89,14 +89,6 @@ main {
     flex-direction: column;
 }
 
-.about {
-    margin: 3% 0 0 0;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    column-gap: 3%;
-}
-
 /*Fix for offset of sticky header and anchor link*/
 #about,
 #work,
@@ -112,12 +104,21 @@ main {
     margin-top: 1em;
 }
 
-.work {
-
+.about {
+    margin: 3% 0 0 0;
+    display: flex;
+    column-gap: 3%;
+    justify-content: flex-start;
 }
-
+/*Flexbox for work examples*/
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+}
+/*All examples will try to be 30% of the space unless they need to grow to fit a row of 2*/
 .example {
-
+    flex: 1 1 30%;
 }
 
 .example h3 {
