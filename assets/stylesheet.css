@@ -34,10 +34,6 @@ header {
     padding: 1%;
 }
 
-header nav {
-
-}
-
 header nav ul {
     list-style-type: none;
     display: flex;
@@ -66,9 +62,21 @@ header nav li a:hover, header nav li a:active {
     background-size: cover;
 }
 
+.parallax :first-child{
+    font-size: 50px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
 .parallax h1, .parallax h2 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    font-weight: 300;
     margin-top: 0;
     padding: 5% 0 0 5%;
+    z-index: -1;
 }
 
 main {
@@ -83,6 +91,14 @@ main {
     justify-content: flex-start;
     flex-direction: row;
     column-gap: 3%;
+}
+
+/*Fix for offset of sticky header and anchor link*/
+#about,
+#work,
+#resume,
+#contact {
+    scroll-margin-top: 200px;
 }
 
 #headshot {
