@@ -15,6 +15,10 @@ body {
     line-height: 1.5;
 }
 
+h1, h2, h3, h4 {
+    margin-top: 1em;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -98,13 +102,14 @@ main {
 #work,
 #resume,
 #contact {
-    scroll-margin-top: 200px;
+    scroll-margin-top: 150px;
 }
 
 #headshot {
     width: 200px;
     height: 100%;
     border-radius: 100px;
+    margin-top: 1em;
 }
 
 .work {
