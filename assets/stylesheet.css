@@ -95,6 +95,7 @@ h2#about,
 h2#work,
 h2#resume,
 h2#contact {
+    font-weight: 400;
     font-size: 3vw;
     scroll-margin-top: 150px;
     text-align: right;
@@ -109,73 +110,27 @@ h2#contact {
     margin-top: 1em;
 }
 
-
 .about,
 .work,
 .resume,
 .contact {
-    margin: 3% 0 0 0;
+    margin: 1vw 0 0 0;
     display: flex;
-    column-gap: 3%;
-    justify-content: flex-start;
+    column-gap: 2%;
     padding-left: 20px;
+    justify-content: flex-start;
 }
+
 /*Flexbox for work examples*/
 .work {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 1%;
 }
-/*All examples will try to be 30% of the space unless they need to grow to fit a row of 2*/
+
 .example {
-    flex: 1 1 30%;
+    border: 3px solid var(--dark);
 }
 
-.example h3 {
-
-}
-
-.example h4 {
-
-}
-
-.example p {
-
-}
-
-button .live {
-
-}
-
-.resume {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 1%;
-}
-
-details {
-
-}
-
-summary {
-
-}
-
-.contact {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 1%;
-
-}
-
-footer {
-
-}
-
-footer nav {
-
-}
-
-footer nav li {
-
+.example:hover {
+    border: 3px solid var(--light);
 }
