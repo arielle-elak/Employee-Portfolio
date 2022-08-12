@@ -15,6 +15,17 @@ body {
     line-height: 1.5;
 }
 
+h1 {
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 1vw;
+}
+
+
+
+
 h1, h2, h3, h4 {
     margin-top: 3vh;
 }
@@ -151,13 +162,6 @@ h2#contact {
     flex: 1 1 50%;
 }
 
-/*Flexbox for work examples*/
-.work {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
 .example {
     border: 3px solid var(--dark);
 }
@@ -177,4 +181,12 @@ h2#contact {
 
 .description {
     width: 60%;
+}
+
+summary {
+    font-size: 2vw;
+}
+
+.details {
+
 }
