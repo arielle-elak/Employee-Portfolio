@@ -267,7 +267,14 @@ details h4 {
 
 .contact li a {
     color: var(--dark);
+    font-weight: 600;
 }
+
+.contact li a:hover {
+    color: var(--light);
+    font-weight: 600;
+}
+
 
 /*Responsive footer*/
 footer {
