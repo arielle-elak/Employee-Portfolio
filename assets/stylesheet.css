@@ -105,7 +105,7 @@ main {
 }
 
 section {
-    margin-top: 2%;
+    margin-top: 4%;
 }
 
 .row {
@@ -165,10 +165,10 @@ h2#contact {
 
 .example {
     border: 3px solid var(--dark);
-}
-
-#full-box {
-    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: auto;
 }
 
 .example:hover {
@@ -179,6 +179,46 @@ h2#contact {
     width: 20%;
     background-color: #a47b86;
 }
+
+#horiseon,
+#psr,
+#tms,
+#bunnies,
+#otaku
+ {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#horiseon {
+    height: 15vw;
+    background-image: url("../assets/images/horiseon.png");
+}
+
+#psr {
+    height: 7vw;
+    background-image: url("../assets/images/psrco.png");
+}
+
+#tms {
+    height: 7vw;
+    background-image: url("../assets/images/tms-worcester.png");
+}
+
+#bunnies {
+    height: 7vw;
+    background-image: url("../assets/images/musical-bunny.png");
+}
+
+#otaku {
+    height: 7vw;
+    background-image: url("../assets/images/odk.png");
+}
+
+
+
+
+
 
 .description {
     width: 60%;
