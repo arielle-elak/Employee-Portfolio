@@ -24,11 +24,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2vw;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 1vw;
+    font-size: 20px;
     margin-bottom: 1vw;
 }
 
@@ -149,8 +149,8 @@ h2#about,
 h2#work,
 h2#resume,
 h2#contact {
+    font-size: 6vh;
     font-weight: 400;
-    font-size: 3vw;
     scroll-margin-top: 150px;
     text-align: right;
     border-right: 5px solid var(--dark);
@@ -221,14 +221,12 @@ h2#contact {
 }
 
 
-
-
 .description {
     width: 60%;
 }
 
 summary {
-    font-size: 1vw;
+    font-size: 20px;
     margin-top: 2vw;
 }
 
@@ -251,7 +249,7 @@ details h4 {
 }
 
 .contact li {
-    font-size: 1vw;
+    font-size: 15px;
     list-style-type: square;
     margin-left: 1vw;
 }
@@ -273,4 +271,58 @@ footer nav ul {
     flex-direction: row;
     gap: 90px;
     flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    main {
+        margin: 5%;
+    }
+
+    h2#about,
+    h2#work,
+    h2#resume,
+    h2#contact {
+        text-align: left;
+        border-right: none;
+        border-left: 5px solid var(--dark);
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    #horiseon {
+        height: 30vw;
+    }
+
+    #psr,
+    #tms,
+    #bunnies,
+    #otaku {
+        height: 25vh;
+    }
+
+    h2#about,
+    h2#work,
+    h2#resume,
+    h2#contact {
+        width: 100%;
+    }
+
+    details h2 {
+        font-size: 40px;
+    }
+
+    details h3 {
+        font-size: 20px;
+    }
+
+    .title-box {
+        width: 40%;
+    }
 }
