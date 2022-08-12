@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/normalize.css"/>
+    <link rel="stylesheet" href="assets/reset.css"/>
     <link rel="stylesheet" href="assets/stylesheet.css"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     <!--Lato font from google fonts to match logo-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,11 +45,13 @@
         </h2>
         </section>
     <!--END parallax background profile section-->
-    <main>
+
+<main>
     <!--START About section-->
 
-    <h2 id="about">About</h2>
+
     <section class ="about">
+        <h2 id="about">About</h2>
         <img id="headshot" src='assets/images/headshot.jpg'/>
             <p>
             Investing in my continuing education and maintaining a constant thirst for learning are paramount to my professional identity.
@@ -62,54 +65,74 @@
 
 
      <!--START Work section-->
-     <h2 id="work">Work</h2>
-     <section class ="work">
-        <!--START Work examples section-->
-        <article class="example">
-            <div class="title-box">
-                <h3>Horiseon Code Refractor</h3>
-                <p>HTML/CSS</p>
-                <p>For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. Site is fully responsive.</p>
-                <button class="live"><a href="https://arielle-elak.github.io/Horiseon-Code-Refactor/" target=_blank>Live Site</a></button>
+    <section class="work">
+        <h2 id="work">Work</h2>
+        <div class="row">
+            <div class="column">
+                <article class="example" id="full-box">
+                    <div class="title-box">
+                        <h3>Horiseon Code Refractor</h3>
+                        <p>HTML/CSS</p>
+                    </div>
+                    <div class = "description">
+                        <p>For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. Site is fully responsive.</p>
+                        <button class="live"><a href="https://arielle-elak.github.io/Horiseon-Code-Refactor/" target=_blank>Live Site</a></button>
+                    </div>
+                </article>
             </div>
-        </article>
-
-        <article class="example">
-            <div class="title-box">
-                <h3>PSR Colorado</h3>
-                <h4>Squarespace</h4>
-                <p>Created website for a Colorado-based non profit using Squarespace.</p>
-                <button class="live"><a href="https://psrcolorado.org" target=_blank>Live Site</a></button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <article class="example">
+                    <div class="title-box">
+                        <h3>PSR Colorado</h3>
+                        <h4>Squarespace</h4>
+                    </div>
+                    <div class="description">
+                        <p>Created website for a Colorado-based non profit using Squarespace.</p>
+                        <button class="live"><a href="https://psrcolorado.org" target=_blank>Live Site</a></button>
+                    </div>
+                </article>
             </div>
-        </article>
-
-        <article class="example">
-            <div class="title-box">
-                <h3>TMS Worcester</h3>
-                <h4>Wix</h4>
-                <p>Created website for a Massachusetts-based psychiatry clinic in Wix.</p>
-                <button class="live"><a href="https://www.tmsworcester.com/" target=_blank>Live Site</a></button>
+            <div class="column">
+                <article class="example">
+                    <div class="title-box">
+                        <h3>TMS Worcester</h3>
+                        <h4>Wix</h4>
+                    </div>
+                    <div class="description">
+                        <p>Created website for a Massachusetts-based psychiatry clinic in Wix.</p>
+                        <button class="live"><a href="https://www.tmsworcester.com/" target=_blank>Live Site</a></button>
+                    </div>
+                </article>
             </div>
-        </article>
-
-        <article class="example">
-            <div class="title-box">
-                <h3>Musical Bunnies</h3>
-                <h4>Autodesk Maya</h4>
-                <p>For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. Site is fully responsive.</p>
-                <button class="live"><a href="https://vimeo.com/228747921" target=_blank>Watch Video</a></button>
+        </div>
+        <div class="row">
+            <div class="column">
+                <article class="example">
+                    <div class="title-box">
+                        <h3>Musical Bunnies</h3>
+                        <h4>Autodesk Maya</h4>
+                    </div>
+                    <div class="description">
+                        <p>For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. Site is fully responsive.</p>
+                        <button class="live"><a href="https://vimeo.com/228747921" target=_blank>Watch Video</a></button>
+                     </div>
+                    </article>
+                </div>
+            <div class="column">
+                <article class="example">
+                    <div class="title-box">
+                        <h3>Anime's Cutests Most Cuddly Mascots</h3>
+                        <h4>Voiceover</h4>
+                    </div>
+                    <div class="description">
+                        <p>For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. Site is fully responsive.</p>
+                        <button class="live"><a href="https://www.youtube.com/watch?v=8miXFSj0by8" target=_blank>Watch Video</a></button>
+                    </div>
+                </article>
             </div>
-        </article>
-
-        <article class="example">
-            <div class="title-box">
-                <h3>Anime's Cutests Most Cuddly Mascots</h3>
-                <h4>Voiceover</h4>
-                <p>For this assignment, we were given a pre-built website lacking in sementic elements, alt tags for accessibility. Our goal was to make sure the HTML and CSS stylesheet flowed in a proper and logical manner and was correctly commented. Site is fully responsive.</p>
-                <button class="live"><a href="https://www.youtube.com/watch?v=8miXFSj0by8" target=_blank>Watch Video</a></button>
-            </div>
-        </article>
-
+        </div>
     </section>
     <!--END Work section-->
 
