@@ -25,6 +25,7 @@ h1 {
 
 h2 {
     font-size: 1vw;
+    margin-bottom: 1vw;
 }
 
 p {
@@ -60,7 +61,8 @@ header nav ul {
     flex-wrap: wrap;
 }
 
-header nav li a {
+header nav li a,
+footer nav li a {
     color: var(--extralight);
     text-decoration: none;
 }
@@ -99,7 +101,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 7% 0 12%;
+    margin: 0 7% 3% 12%;
 }
 
 section {
@@ -203,4 +205,29 @@ details h3 {
 
 details h4 {
     font-weight: 600;
+}
+
+.contact li {
+    font-size: 1vw;
+    list-style-type: square;
+    margin-left: 1vw;
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--extralight);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw 0 1vw 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 90px;
+    flex-wrap: wrap;
 }
