@@ -265,6 +265,10 @@ details h4 {
     margin-left: 1vw;
 }
 
+.contact li a {
+    color: var(--dark);
+}
+
 /*Responsive footer*/
 footer {
     background-color: var(--dark);
