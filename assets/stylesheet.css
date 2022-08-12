@@ -169,53 +169,49 @@ h2#contact {
     flex-direction: row;
     align-items: flex-end;
     height: auto;
+    box-shadow: inset 0 0 0 2000px rgba(102,62,73, 0.7);
+    transition: box-shadow 0.3s ease-in-out;
 }
+
 
 .example:hover {
     border: 3px solid var(--light);
+    box-shadow: inset 0 0 0 2000px rgba(102,62,73, 0.0);
 }
 
 .title-box {
-    width: 20%;
+    width: 10vw;
     background-color: #a47b86;
+    color: var(--extralight);
+    line-height: 1;
+    padding: 0 0 1vw .5vw;
 }
 
-#horiseon,
-#psr,
-#tms,
-#bunnies,
-#otaku
- {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #horiseon {
-    height: 15vw;
-    background-image: url("../assets/images/horiseon.png");
+    height: 17vw;
+    background: url("../assets/images/horiseon.png");
 }
 
 #psr {
-    height: 7vw;
-    background-image: url("../assets/images/psrco.png");
+    height: 10vw;
+    background: url("../assets/images/psrco.png");
 }
 
 #tms {
-    height: 7vw;
-    background-image: url("../assets/images/tms-worcester.png");
+    height: 10vw;
+    background: url("../assets/images/tms-worcester.png");
 }
 
 #bunnies {
-    height: 7vw;
-    background-image: url("../assets/images/musical-bunny.png");
+    height: 10vw;
+    background: url("../assets/images/musical-bunny.png");
 }
 
 #otaku {
-    height: 7vw;
-    background-image: url("../assets/images/odk.png");
+    height: 10vw;
+    background: url("../assets/images/odk.png");
 }
-
-
 
 
 
