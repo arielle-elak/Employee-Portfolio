@@ -233,6 +233,10 @@ h2#contact {
     height: 10vw;
     background: url("../assets/images/odk.png");
 }
+#gittyup {
+    height: 10vw;
+    background: url("../assets/images/gittyup.png");
+}
 /*Expandable summary for resume section*/
 summary {
     font-size: 20px;
